@@ -1,0 +1,86 @@
+body {
+  overflow: hidden;
+  background-color: #fdf6a2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #383d44;
+}
+
+#contenedor-principal {
+  background-color: #f5eb7c88;
+  padding: 3rem;
+  margin-top: 8rem;
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px grey;
+  border-radius: 2rem;
+  -webkit-box-shadow: 3px 10px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 10px 31px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 10px 31px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fila-primera {
+  gap: 0rem;
+}
+
+.fila-ultima {
+  padding-top: 2rem;
+  justify-content: space-evenly !important;
+  gap: 4rem;
+}
+
+.icono-tiempo {
+  height: 5rem;
+}
+
+.icono {
+  height: 3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Estilos de fuentes */
+body {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.3rem;
+}
+
+.ubicacion {
+  font-size: 1.5rem;
+}
+
+.descripcion{
+  color: #e75454;
+  font-size: 1.3em;
+}
+
+.grados {
+  color: #e75454;
+  margin: 2rem;
+  font-size: 5rem;
+}
+
+#texto-error{
+  color: #e75454;
+}
